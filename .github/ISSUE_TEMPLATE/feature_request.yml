@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest an integration scenario or an MSAL iOS/Android behavior.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: What are you building, and which platform constraint matters?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected SDK behavior
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: I understand this repository distributes an artifact, not SDK source.
+          required: true

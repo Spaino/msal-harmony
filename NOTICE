@@ -1,0 +1,13 @@
+MSAL for HarmonyOS (Community Edition)
+
+This is an independent community implementation of an OAuth 2.0 / OpenID
+Connect public-client SDK for HarmonyOS. It is not an official Microsoft
+product and is not affiliated with, endorsed by, or supported by Microsoft
+Corporation.
+
+Microsoft, Microsoft Entra, MSAL, and related marks are trademarks of
+Microsoft Corporation. This project contains no Microsoft source code.
+
+The project's OAuth/OIDC behavior and public API concepts are informed by the
+open-source MSAL iOS/macOS project:
+https://github.com/AzureAD/microsoft-authentication-library-for-objc

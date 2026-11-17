@@ -1,0 +1,9 @@
+.DS_Store
+*.log
+*.tmp
+.idea/
+.vscode/
+node_modules/
+oh_modules/
+build/
+dist/
